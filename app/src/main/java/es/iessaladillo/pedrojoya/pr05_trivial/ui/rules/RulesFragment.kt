@@ -9,7 +9,7 @@ import es.iessaladillo.pedrojoya.pr05_trivial.R
 
 
 
-class RulesFragment : Fragment(R.layout.scrollviews_rules) {
+class RulesFragment : Fragment(R.layout.rules_fragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

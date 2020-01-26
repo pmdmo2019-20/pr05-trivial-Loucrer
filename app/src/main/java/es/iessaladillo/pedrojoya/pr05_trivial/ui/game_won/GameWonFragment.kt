@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.game_overfragment.*
 import kotlinx.android.synthetic.main.game_wonfragment.*
 
 
-class GameWonFragment : Fragment(R.layout.scrollviews_won) {
+class GameWonFragment : Fragment(R.layout.game_wonfragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

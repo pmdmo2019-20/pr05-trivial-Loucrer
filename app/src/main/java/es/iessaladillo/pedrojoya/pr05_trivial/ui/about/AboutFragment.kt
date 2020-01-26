@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import es.iessaladillo.pedrojoya.pr05_trivial.R
 
-class AboutFragment : Fragment(R.layout.scrollviews_about) {
+class AboutFragment : Fragment(R.layout.about_fragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

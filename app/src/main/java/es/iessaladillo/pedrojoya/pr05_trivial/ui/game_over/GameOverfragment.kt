@@ -9,7 +9,7 @@ import es.iessaladillo.pedrojoya.pr05_trivial.R
 import es.iessaladillo.pedrojoya.pr05_trivial.ui.title.TitleFragment
 import kotlinx.android.synthetic.main.game_overfragment.*
 
-class GameOverfragment : Fragment(R.layout.scrollviews_lose) {
+class GameOverfragment : Fragment(R.layout.game_overfragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

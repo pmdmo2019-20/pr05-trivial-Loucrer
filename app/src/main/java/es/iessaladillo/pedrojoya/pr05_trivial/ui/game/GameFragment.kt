@@ -20,7 +20,7 @@ import ui.game_won.GameWonFragment
 import es.iessaladillo.pedrojoya.pr05_trivial.ui.title.TitleFragment
 
 
-class GameFragment : Fragment(R.layout.scrollview_game) {
+class GameFragment : Fragment(R.layout.game_fragment) {
 
     //ViewModel para el juego
     private val viewModel: GameFragmentViewModel by viewModels()
