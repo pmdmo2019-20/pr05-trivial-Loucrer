@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#004785</color>
+    <color name="colorPrimaryDark">#001957</color>
     <color name="colorAccent">#7e53c5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bckBtn">#B6E79C</color>
+    <color name="bckBtnWon">#FAE3A5</color>
+    <color name="bckBtnLose">#FFAAAA</color>
 </resources>

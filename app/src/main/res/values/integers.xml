@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="prefConfirmQuestions_defaultValue">10</integer>
+    <integer name="maxQuestions">10</integer>
+</resources>

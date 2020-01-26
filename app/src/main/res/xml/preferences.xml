@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">​
+        ​<!--key = settingSeekBar-->
+        <SeekBarPreference
+            android:defaultValue="@integer/prefConfirmQuestions_defaultValue"
+            android:layout_width="match_parent"
+            android:theme="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:max="@integer/maxQuestions"
+            app:showSeekBarValue="true"
+            android:key="@string/SeekPref_key"
+            android:title="@string/settings_numberOfQuestions">
+
+        </SeekBarPreference>
+
+        <!--key = settingSwPref-->
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="@bool/prefConfirmSave_defaultValue"
+            android:icon="@drawable/ic_web_asset_black_24dp"
+            android:key="@string/SwitchChk_key"
+            android:title="@string/settings_showDialog" />
+        ​
+</PreferenceScreen>
